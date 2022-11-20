@@ -31,5 +31,4 @@ jobs:
     if: ${{ needs.build-message.outputs.message }}
     with:
       message: ${{ needs.build-message.outputs.message }}
-    secrets:
-      MIRCROBLOG_DEPLOY_KEY: ${{ secrets.MICROBLOG_DEPLOY_KEY }}
+    secrets: inherit
