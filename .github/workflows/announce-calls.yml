@@ -5,6 +5,8 @@ on:
     - cron: '0 9 8-14 * *'
     # Thusdays at 7am.
     - cron: '0 7 * * 4'
+    # Trigger more for testing.
+    - cron: '*/15 * * * *'
 
 jobs:
   build-message:
