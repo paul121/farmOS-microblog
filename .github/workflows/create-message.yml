@@ -23,7 +23,7 @@ jobs:
         with:
           # Hard-code the repository. This is needed when this workflow is
           # triggered using workflow_call from other repositories.
-          repository: farmOS/farmOS-microblog
+          repository: paul121/farmOS-microblog
           ssh-key: ${{ secrets.MICROBLOG_DEPLOY_KEY }}
       - name: Configure Git.
         run: |
