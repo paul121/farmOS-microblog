@@ -19,7 +19,7 @@ jobs:
           TZ=UTC
           DAY=$(date +\%u)
           case "${DAY}" in
-              3)    echo "MESSAGE=The #farmOS monthly community call is today at 2pm Eastern. All are welcome! https://farmos.org/community/monthly-call/" >> $GITHUB_ENV ;;
+              7)    echo "MESSAGE=The #farmOS monthly community call is today at 2pm Eastern. All are welcome! https://farmos.org/community/monthly-call/" >> $GITHUB_ENV ;;
               4)    echo "MESSAGE=The #farmOS weekly dev call is today at 12pm Eastern. All are welcome! https://meet.jit.si/farmos-dev" >> $GITHUB_ENV ;;
           esac
     outputs:
